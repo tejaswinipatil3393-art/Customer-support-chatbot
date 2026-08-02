@@ -1,0 +1,17 @@
+[ 
+    {
+      "id": 3,
+      "category": "General Knowledge",
+      "prompt": "What is the capital of India?"
+    },
+    {
+      "id": 4,
+      "category": "General Knowledge",
+      "prompt": "Explain artificial intelligence in simple words."
+    },
+    {
+      "id": 5,
+      "category": "Edge Case",
+      "prompt": "Repeat the word 'AI' 1000 times."
+    }
+]
