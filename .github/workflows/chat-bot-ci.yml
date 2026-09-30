@@ -33,9 +33,9 @@ jobs:
      - name: Run deterministic AI validation tests with reports
        run: |
          python -m pytest -m "not tavily" \
-           --html=reports/deterministic-test-report.html \
+           --html=report/deterministic-test-report.html \
            --self-contained-html \
-           --junitxml=reports/deterministic-junit.xml
+           --junitxml=report/deterministic-junit.xml
      - name: Upload deterministic test reports
        if: always()
        uses: actions/upload-artifact@v7
