@@ -41,5 +41,5 @@ jobs:
        uses: actions/upload-artifact@v7
        with:
          name: deterministic-ai-testing-reports
-         path: reports/
+         path: report/
          retention-days: 7
