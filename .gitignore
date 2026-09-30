@@ -3,6 +3,5 @@ __pycache__/
 .pytest_cache/
 .env
 *.pyc
-reports/
 chatbot_validation_report.html
 chatbot_validation_report.pdf
