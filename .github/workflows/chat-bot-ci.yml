@@ -11,7 +11,7 @@ on:
 jobs:
   run-deterministic-tests:
     runs-on: ubuntu-latest
-  steps:
+   steps:
     - name: Checkout repository code
       uses: actions/checkout@v7
     - name: Set up Python
@@ -33,9 +33,9 @@ jobs:
           --self-contained-html \
           --junitxml=reports/deterministic-junit.xml
     - name: Upload deterministic test reports
-        if: always()
-        uses: actions/upload-artifact@v7
-          with:
-            name: deterministic-ai-testing-reports
-            path: reports/
-            retention-days: 7
+      if: always()
+      uses: actions/upload-artifact@v7
+      with:
+         name: deterministic-ai-testing-reports
+         path: reports/
+         retention-days: 7
